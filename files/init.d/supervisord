@@ -17,6 +17,7 @@
 . /etc/rc.d/init.d/functions
 
 RETVAL=0
+PATH="$PATH:/usr/local/bin"
 
 start() {
         echo -n $"Starting supervisord: "
